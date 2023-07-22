@@ -1,9 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
 .calculator{
-  /* background-color: ; */
-  width: 50vw;
-  height: 50vh;
+  background-color: gray;
+  border-radius: 10px;
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.result_box{
+  /* background-color: red; */
+  margin: 10px auto;
+}
+
+.button_Container{
+  background-color: red;
 }
