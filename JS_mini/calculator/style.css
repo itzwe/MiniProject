@@ -9,7 +9,7 @@
   background-color: gray;
   border-radius: 10px;
   width: 30vw;
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -22,7 +22,16 @@
   /* background-color: red; */
   margin: 10px auto;
 }
+.input_box{
+  height: 50px;
+  text-align: right;
+}
+.button_operation{
+  /* background-color: red; */
+  padding: 20px 0 20px 50px;
+}
 
-.button_Container{
-  background-color: red;
+input[type=button]{
+  width: 20%;
+  padding: 5px;
 }
