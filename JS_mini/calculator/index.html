@@ -9,36 +9,37 @@
 <body>
   <div class="calculator">
     <div class="result_box">
-      <input class="input_box" type="text" />
+      <input class="input_box" type="text" value="" />
     </div>
     <div class="button_Container">
       <div class="button_operation">
         <input type="button" value="1"/>
         <input type="button" value="2"/>
         <input type="button" value="3"/>
-        <input type="button" value="+"/>
+        <input type="button" class="plus" value="+"/>
       </div>
       <div class="button_operation">
         <input type="button"  value="4"/>
         <input type="button"  value="5"/>
         <input type="button"  value="6"/>
-        <input type="button"  value="-"/>
+        <input type="button" class="minus"  value="-"/>
       </div>
       <div class="button_operation">
         <input type="button"  value="7"/>
         <input type="button"  value="8"/>
         <input type="button"  value="9"/>
-        <input type="button"  value="*"/>
+        <input type="button" class="mul"  value="*"/>
       </div>
       <div class="button_operation">
-        <input type="button"  value="C"/>
+        <input type="button" class="reset"  value="C"/>
         <input type="button"  value="0"/>
-        <input type="button"  value="."/>
-        <input type="button"  value="="/>
+        <input type="button" class="div"  value="/"/>
+        <input type="button" class="result" value="="/>
       </div>
 
     </div>
     
   </div>
+  <script src="./main.js"></script>
 </body>
 </html>
